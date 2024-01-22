@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Motor Karbantartás",
+    "price": "8.000",
+    "detail": "Motor karbantartás, Olaj - olajszűrő, tüzelőanyagszűrő csere",
+    "image": "./szolg/olajcs.png"
+  },
+  {
+    "name": "Általános karbantartás",
+    "price": "5.000",
+    "detail": "Ávizsgálás-diagnosztikai vizsgálat, Pollenszűrő csere, Hűtőfolyadék karbantartás",
+    "image": "./szolg/karb.png"
+  },
+  {
+    "name": "Autószerelés",
+    "price": "15.000",
+    "detail": "Fékjavítás, Kuplungcsere, Vezérlés csere, Futómű javítás",
+    "image": "./szolg/kupl.png"
+  },
+  {
+    "name": "Gumiszervíz",
+    "price": "8.000",
+    "detail": "Gumiabroncs javítás-szerelés, centírozás",
+    "image": "./szolg/kerekcs1.png"
+  },
+  {
+    "name": "Lézeres futóműállítás",
+    "price": "20.000",
+    "detail": "Műhelyünk a  3D-s Techno Vector futóműállító gép segítségével éri el a legpontosabb értékbeállítást.",
+    "image": "./szolg/futomu.png"
+  },
+  {
+    "name": "Klímaszervíz",
+    "price": "10.000",
+    "detail": "Klímatöltés, hibafeltárás, szivárgásvizsgálat, javítás, ózongenerátoros fertőtlenítés!",
+    "image": "./szolg/ac.png"
+  }
+]
