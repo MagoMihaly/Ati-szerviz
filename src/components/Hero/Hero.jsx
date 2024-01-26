@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import CountUp from 'react-countup'
 import { motion, spring } from 'framer-motion'
+import { Car } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -12,7 +13,8 @@ const Hero = () => {
 
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle" />
+           
+            
             <motion.h1
               initial={{y:"2rem", opacity: 0}}
               animate={{y: 0, opacity: 1}}
@@ -21,13 +23,16 @@ const Hero = () => {
                 type: "spring"
               }}
             >
-                Ati <br/>Autószervíz  <br/>és Gumiszervíz
+                Ati
+                <br/>
+                Autószervíz  <br/>
+                és Gumiszervíz
             </motion.h1>
           </div>
 
           <div className="flexColStart hero-desc">
             <h3>Várjuk régi és új ügyfeleinket Kiskunfélegyházán</h3>
-            <span className='secondaryText'>A nálam megrendelt gumiabroncsokért külön szerelési díjat nem számolok fel!</span>
+            <span className='brightText'>A nálam megrendelt gumiabroncsokért külön szerelési díjat nem számolok fel!</span>
           </div>
 
           

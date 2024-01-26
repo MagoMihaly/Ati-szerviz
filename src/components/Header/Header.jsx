@@ -25,9 +25,9 @@ const Header = () => {
             style={getMenuStyles(menuOpened)}
           >
 
-            <a href="">Bemutatkozás</a>
-            <a href="">Szolgáltatásaink</a>
-            <a href="kapcsolat">Kapcsolat</a>
+            <a href="#location">Hol vagyunk</a>
+            <a href="#services">Szolgáltatásaink</a>
+            <a href="#contact">Kapcsolat</a>
             <button className="button">
               <a href="tel:+36309789391">Hívj most!</a>
             </button>

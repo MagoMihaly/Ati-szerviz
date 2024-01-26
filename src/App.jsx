@@ -12,18 +12,28 @@ import Gmaps from "./components/Gmaps/Gmaps";
 function App() {
   return (
     <div className="App">
-      <div>
+      <header>
         <div className="white-gradient"/>
         <Header />
         <Hero />
-      </div>
-      <Gmaps />
-      <Services />
-      <Companies/> 
-      <Value />
-      <Contact id="kapcsolat"/>
-      <GetStarted />
-      <Footer />
+      </header>
+      <section id="location">
+        <Gmaps />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section>
+        <Companies/> 
+        <Value />
+      </section>
+      <section id="contact">
+        <Contact />
+        <GetStarted />
+      </section>    
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

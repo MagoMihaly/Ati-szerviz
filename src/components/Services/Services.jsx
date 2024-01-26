@@ -39,6 +39,10 @@ const Services = () => {
             ))
           }
         </Swiper>
+        <div className="flexCenter" style={{marginTop:"1rem"}}>
+          <p className="secondaryText">Lapozzon át szolgáltatásainkat</p>
+        </div>
+        
 
       </div>
     </div>
